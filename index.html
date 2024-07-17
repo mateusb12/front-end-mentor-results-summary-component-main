@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Results summary component</title>
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="big-container">
+        <div class="result">
+            <div class="result-title">Your Result</div>
+            <p class="result-score">
+                <span>76</span>
+                of 100
+            </p>
+            <div class="bottom-title">Great</div>
+            <p class="bottom-paragraph">You scored higher than 65% of <br>the people who have taken<br> these tests.</p>
+        </div>
+        <div class="summary">
+            <div class="summary-header">Summary</div>
+            <div class="summary-body">
+                <div class="summary-item" data-type="reaction">
+                    <img src="./assets/images/icon-reaction.svg" alt="reaction time icon">
+                    <span class="summary-label">Reaction</span>
+                    <span class="summary-value"><b>80</b> / 100</span>
+                </div>
+                <div class="summary-item" data-type="memory">
+                    <img src="./assets/images/icon-memory.svg" alt="memory icon">
+                    <span class="summary-label">Memory</span>
+                    <span class="summary-value"><b>92</b> / 100</span>
+                </div>
+                <div class="summary-item" data-type="verbal">
+                    <img src="./assets/images/icon-verbal.svg" alt="verbal icon">
+                    <span class="summary-label">Verbal</span>
+                    <span class="summary-value"><b>61</b> / 100</span>
+                </div>
+                <div class="summary-item" data-type="visual">
+                    <img src="./assets/images/icon-visual.svg" alt="visual icon">
+                    <span class="summary-label">Visual</span>
+                    <span class="summary-value"><b>72</b> / 100</span>
+                </div>
+                <button class="summary-item" data-type="button">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Mateus Bessa</a>.
+    </div>
+</main>
+</body>
+</html>
